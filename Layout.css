@@ -12,8 +12,32 @@ body{
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "headers headers headers "
+    "side main main"
+    "side main main"
+    "footer footer footer";
 }
 .header {
-   
+   grid-area: headers;
+   background-color:#0D0000;
+   color: white;
+   font-size: 1.6rem;
+}
+.ul {
+    text-align:right;
+    list-style: none;
+}
+li {
+    display: inline-block;
+}
+.left-side {
+    grid-area: side;
+    background-color: #59402A;
+    
+}
+.footer {
+    grid-area:footer;
+    background-color:#D8D9D7;
 }
