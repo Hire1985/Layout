@@ -10,19 +10,63 @@ body{
     font-size: 1.6rem;
 }
 .header {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    background-color: #0d0d0d;
-    color: white;
-    font-size: 1.4rem;
-    font-weight: bold;
-    height: 50px;
+    display: flex;
+    justify-content: right;
+    height: 4rem;
+    background-color:black;
+    color: aliceblue;
 }
-.header .ul{
+.logo{
+    flex-grow: 1;
+}
+.ul {
+    display: flex;
+    list-style-type:none;
+}
+.lista1 {
+    padding-left: 10px;
+}
+.left-side {
+    display: flex;
+    flex-direction: column;
+    background-color:salmon;
+    width: 38rem;
+    min-width: 29rem;
+}
+.box {
+    width: 25rem;
+    height: 15rem;
+}
+.box1 {
+    background-color: brown;
+    margin-top: 14px;
+    margin-left: 15px;
+    margin-bottom: 13px;
+}
+.main-container {
+    display: flex;
+}
+.right-side{
+    background-color: burlywood;
+}
+.footer {
+    display: flex;
+    background-color: cornsilk;
+    justify-content:right ;
+}
+.ul-footer-left{
+    display: flex;
     list-style: none;
-    text-align: end;
-}
-.header .ul li {
-    display: inline-block;
-    padding: 18px 5px 0 20px;
+    flex-grow: 1;
+ }
+ .ul-footer-right{
+     display: flex;
+     list-style: none;
+ }
+ .lista2 {
+    margin-left: 15px;
+ }
+ .lista3 {
+    margin-left: 15px;
+    
 }
