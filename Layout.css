@@ -36,7 +36,8 @@ body{
 .left-side {
     grid-area: side;
     background-color: #59402A;
-    
+    height: 522px;
+    width:250px;
 }
 .box {
     background-color: #8C6645;
@@ -58,10 +59,19 @@ body{
 .main {
     grid-area: main;
     background-color: #A68568;
+    width: 774px;
 }
 .footer {
     grid-area:footer;
     background-color:#D8D9D7;
+    justify-self: start;
+    width: 750px;
+}
+.foot {
+    grid-area: footer;
+    justify-self: right;
+    background-color:#D8D9D7;
+    width: 274px;
 }
 .ul-footer-left .lista2 {
     display: inline;
