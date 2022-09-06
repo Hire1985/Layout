@@ -55,6 +55,10 @@ body{
 .box3 {
     margin-top: 20px;
 }
+.main {
+    grid-area: main;
+    background-color: #A68568;
+}
 .footer {
     grid-area:footer;
     background-color:#D8D9D7;
@@ -63,7 +67,9 @@ body{
     display: inline;
     list-style-type: none;
 }
+
 .ul-footer-right .lista3 {
     display: inline;
     list-style-type: none;
+    text-align: right;
 }
