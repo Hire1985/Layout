@@ -1,23 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./Layout.css">
-    <title>Fonoaudiología</title>
+    <title>Contactenos</title>
 </head>
-
 <body>
     <div class="grid">
         <header class="header">
             <nav>
                 <span class="logo">Logo</span>
                 <ul class="ul">
-                    <li class="lista1">Home</li>
+                    <li class="lista1"><a href="./Index.html">Home</a></li>
                     <li class="lista1">Contactenos</li>
-                    <li class="lista1"><a href="./contactenos.html">Instructores </a> </li>
+                    <li class="lista1"><a href="">Instructores</a></li>
                     <li class="lista1">Blog</li>
                 </ul>
             </nav>
@@ -42,21 +40,18 @@
             </aside>
         </main>
         <section class="main">
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae dolorem magni distinctio ea neque labore,
-                nobis tenetur accusantium quis totam! Dolore reiciendis dolorem quae aspernatur impedit! Distinctio,
-                maiores debitis. Neque!
-                Nihil modi quibusdam sunt incidunt vero nostrum porro animi, harum consequatur natus quod a, veniam,
-                perspiciatis in quisquam ut? Recusandae dignissimos non consequatur. Adipisci explicabo asperiores
-                excepturi officia quaerat quos?
-                Iure modi, natus recusandae totam facilis tenetur quasi. Ex quas quidem doloribus ut eos adipisci. Cum
-                impedit dignissimos fugiat asperiores soluta necessitatibus quam sunt odit mollitia, iure cumque magni
-                tenetur.
-                Earum vero quis illum accusantium repellendus repellat architecto possimus blanditiis hic veritatis nisi
-                minus culpa molestiae deleniti autem incidunt dolor sequi, pariatur ea quo ad nihil dolores minima.
-                Alias, sapiente.
-                Possimus cum corporis soluta! Quas suscipit, nobis consequuntur unde ex tempora hic sapiente. Optio
-                sint, repellat a esse quae labore! Amet, veniam mollitia in nostrum libero optio commodi incidunt
-                aspernatur?</p>
+            <form action="mailto:andrezzz85@gmail.com" method="GET">
+                <label for="name">Nombre</label>
+                <input type="text" id="name" placeholder="Escribe tu nombre"> <br>
+                <label for="lastName">Apellido</label>
+                <input type="text" id="lastName" placeholder="Escribe tu apellido"> <br>
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Escribe tu corrreo"> <br>
+                <input name="subject" type="text" placeholder="Escribe el asunto" /> <br>
+                <textarea name="body"></textarea> <br>
+                <input type="submit" value="Enviar Correo">
+
+            </form>
         </section>
         <footer class="left-footer">
             <ul class="ul-footer-left">
@@ -76,5 +71,4 @@
         </footer>
     </div>
 </body>
-
 </html>
