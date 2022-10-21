@@ -11,6 +11,9 @@ html {
 body {
     font-size: 1.6rem;
 }
+.inactive {
+    display: none;
+}
 
 .grid {
     display: grid;
@@ -24,19 +27,45 @@ body {
 }
 
 .header {
+    align-self: center;
     grid-area: headers;
     background-color: #0D0000;
     color: white;
     font-size: 1.6rem;
     height: 60px;
 }
+.prueba{
+    display: flex;
+    place-content: end;
 
-.ul {
+}
+.prueba2{
+    cursor: pointer;
+    padding-top: 2px;
+    right: 127px;
+    position: absolute;
+background-color: black;
+color: white;
+list-style: none;
+
+}
+.lista4{
+    padding-top: 3px;
+}
+.ul-right {
+    
+    padding-right: 5px;
+    display: flex;
+    justify-content: end;
     text-align: right;
     list-style: none;
 }
 
+
 .lista1 {
+    padding-right: 5px;
+    display: flex;
+    justify-content: end;
     display: inline-block;
 }
 
@@ -45,6 +74,7 @@ body {
     background-color: #59402A;
     height: 522px;
 }
+
 
 .box {
     background-color: #8C6645;
