@@ -5,6 +5,10 @@ const prueba = document.querySelector(".prueba2");
 dropmenu.addEventListener('mousemove', toggleprueba);
 
 function toggleprueba() {
-    console.log("hola");
-    prueba.classList.toggle("inactive");
+    prueba.classList.remove("inactive");
+}
+
+prueba.addEventListener('mouseout', desplegar);
+function desplegar(){
+prueba.classList.add('inactive')
 }
